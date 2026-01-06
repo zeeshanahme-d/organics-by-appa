@@ -1,0 +1,122 @@
+@import url('./custom-scroll-bar.css');
+@import "tailwindcss";
+
+/* your existing design tokens */
+:root {
+  --primary-color: #9C7346;
+  --secondary-color: #6D755E;
+
+  --dark-text-color: #161616;
+  --gray-text-color: #8A8A8A;
+  --light-text-color: #F9F9F9;
+
+  --background: #F7F7EC;
+
+  --font-family-body: 'Poppins', sans-serif;
+  --font-family-Fredoka: 'Fredoka', sans-serif;
+
+  --button-padding-x: 16px;
+  --button-padding-y: 8px;
+  --button-rounded-radius: 8px;
+}
+
+@theme {
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+
+  --color-dark: var(--dark-text-color);
+  --color-gray: var(--gray-text-color);
+  --color-light: var(--light-text-color);
+
+  --color-background: var(--background);
+
+  --font-body: var(--font-family-body);
+  --font-Fredoka: var(--font-family-Fredoka);
+
+  /* radii and spacing */
+  --radius-button: var(--button-rounded-radius);
+  --spacing-button-x: var(--button-padding-x);
+  --spacing-button-y: var(--button-padding-y);
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+* {
+  /* scrollbar-width: none;
+  -ms-overflow-style: none; */
+  box-sizing: border-box;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+textarea:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+button:hover:not(:disabled) {
+  opacity: 1 !important;
+  cursor: pointer !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+  align-items: center;
+}
+
+
+@keyframes rotateText {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
