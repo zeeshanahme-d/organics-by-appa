@@ -14,12 +14,12 @@ const About: React.FC = () => {
     ];
 
     return (
-        <section className="py-16 sm:py-24 lg:py-32" id="about">
+        <section className="py-20" id="about">
             <Wrapper>
-                <div className="text-center mb-32">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight tracking-[-1]">
-                        <span className="text-primary">You Deserve </span>
-                        <span className="text-secondary">The Purest Crunch.</span>
+                <div className="text-center mb-10 sm:mb-32">
+                    <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight">
+                        <span className="text-primary text-3xl md:text-5xl lg:text-6xl">You Deserve </span>
+                        <span className="text-secondary text-3xl md:text-5xl lg:text-6xl">The Purest Crunch.</span>
                         <br />
                         <span className="text-secondary">Golden </span>
                         <span className="text-primary">Panjeeri </span>
@@ -37,11 +37,11 @@ const About: React.FC = () => {
 
                 <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 xl:gap-16">
                     {/* Images Side */}
-                    <div className="w-full lg:w-1/2 relative flex justify-center items-center min-h-[300px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[300px] px-4 sm:px-8 lg:px-0">
+                    <div className="w-full lg:w-1/2 relative flex justify-center items-center min-h-[600px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[300px] px-4 sm:px-8 lg:px-0">
                         <div className="relative w-full max-w-[600px] flex justify-center items-center h-full">
                             {/* First Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[-7.848deg] left-0 sm:left-1 -z-10"
+                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:left-1 -z-10"
                             >
                                 <Image
                                     src="/about-img1.png"
@@ -54,7 +54,7 @@ const About: React.FC = () => {
 
                             {/* Second Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-12 sm:-top-14 md:-top-52 z-10"
+                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] sm:inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-52 z-10 hidden"
                             >
                                 <Image
                                     src="/about-img2.png"
@@ -67,7 +67,7 @@ const About: React.FC = () => {
 
                             {/* Third Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-8 right-0 sm:right-1 z-20"
+                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:right-1 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
                             >
                                 <Image
                                     src="/about-img3.png"
@@ -84,7 +84,7 @@ const About: React.FC = () => {
                     <div className="w-full lg:w-1/2 text-center lg:text-left px-4 sm:px-6 lg:px-0">
                         <div className="space-y-6 sm:space-y-8">
                             {/* Main Heading */}
-                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl font-semibold leading-tight sm:leading-[40px]">
+                            <h1 className="text-xl sm:text-3xl md:text-4xl font-semibold leading-tight">
                                 <span className="text-primary">
                                     We make wholesome, natural nutrition{' '}
                                     <span className="text-secondary">simple and tasty</span>
@@ -93,20 +93,20 @@ const About: React.FC = () => {
                             </h1>
 
                             {/* Subheading */}
-                            <p className="text-lg sm:text-xl md:text-2xl text-secondary leading-relaxed sm:leading-[26px] font-medium">
+                            <p className="text-lg sm:text-xl lg:text-2xl text-secondary leading-tight font-medium">
                                 Wholesome, golden Panjeeri made from the finest ingredients, giving you natural energy, daily vitality, and a taste you'll love.
                             </p>
 
                             {/* CTA Section */}
                             <div className="pt-4 sm:pt-6 flex flex-col sm:flex-row justify-between items-center sm:items-center gap-4 sm:gap-6">
                                 <AnimatedButton text="Buy Now" />
-                                <div className="flex w-auto items-center gap-3 sm:gap-4 flex-wrap justify-center sm:justify-start">
+                                <div className="flex w-[260px] lg:w-[140px] xl:w-[260px] items-center gap-2 flex-wrap justify-center sm:justify-start">
                                     {/* Stars */}
                                     <div className="flex gap-1 sm:gap-1.5">
                                         {[...Array(4)].map((_, i) => (
                                             <FaStar
                                                 key={i}
-                                                className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-secondary fill-secondary"
+                                                className="w-6 h-6 text-secondary fill-secondary"
                                             />
                                         ))}
                                     </div>

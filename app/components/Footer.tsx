@@ -15,24 +15,21 @@ const navData = [
 export default function Footer() {
     return (
         <footer className="bg-secondary text-white pt-10 pb-5 relative overflow-hidden">
-            {/* Faded background logos (optional decorative circles) */}
-            <div className="absolute left-0 bottom-0 rotate-180">
-                <Image
+            <div className="absolute -left-5 md:-left-10 bottom-0 rotate-180">
+                <img
                     src="/footer-logo.svg"
                     alt="Organics by Appa"
-                    width={100}
-                    height={100}
-                    className="object-contain"
+                    loading="lazy"
+                    className="object-contain md:w-32 md:h-32 w-24 h-24"
                 />
             </div>
 
-            <div className="absolute right-0 top-0 rotate-0">
-                <Image
+            <div className="absolute -right-5 md:-right-10 top-0 rotate-0">
+                <img
                     src="/footer-logo.svg"
                     alt="Organics by Appa"
-                    width={100}
-                    height={100}
-                    className="object-contain"
+                    loading="lazy"
+                    className="object-contain md:w-32 md:h-32 w-24 h-24"
                 />
             </div>
 
@@ -68,29 +65,29 @@ export default function Footer() {
                 <div className="flex gap-6">
                     <a
                         href="#"
-                        className="w-12 h-12 border border-white rounded-full flex items-center justify-center"
+                        className="md:w-12 md:h-12 w-10 h-10 border border-white rounded-full flex items-center justify-center"
                     >
-                        <FiInstagram size={24} color="#fff" />
+                        <FiInstagram color="#fff" className="md:w-6 md:h-6 w-5 h-5" />
                     </a>
                     <a
                         href="#"
-                        className="w-12 h-12 border border-white rounded-full flex items-center justify-center"
+                        className="md:w-12 md:h-12 w-10 h-10 border border-white rounded-full flex items-center justify-center"
                     >
-                        <FiFacebook size={24} color="#fff" />
+                        <FiFacebook color="#fff" className="md:w-6 md:h-6 w-5 h-5" />
                     </a>
                     <a
                         href="#"
-                        className="w-12 h-12 border border-white rounded-full flex items-center justify-center"
+                        className="md:w-12 md:h-12 w-10 h-10 border border-white rounded-full flex items-center justify-center"
                     >
-                        <FaXTwitter size={24} color="#fff" />
+                        <FaXTwitter color="#fff" className="md:w-6 md:h-6 w-5 h-5" />
                     </a>
                 </div>
 
                 {/* Divider */}
-                <div className="w-full max-w-6xl border-t border-dashed border-white mt-5" />
+                <div className="w-[90%] max-w-6xl border-t border-dashed border-white mt-3 md:mt-5" />
 
                 {/* Copyright */}
-                <p className="text-base m-0!">
+                <p className="text-sm md:text-base font-light ">
                     © 2026 organicsbyappa. All rights reserved.
                 </p>
             </div>

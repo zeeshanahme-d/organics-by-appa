@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                     </a>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden lg:flex items-center gap-x-10">
+                    <nav className="hidden md:flex items-center gap-x-10">
                         {navData.map((link) => (
                             <button
                                 key={link.path}

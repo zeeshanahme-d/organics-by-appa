@@ -79,11 +79,11 @@ const AnimatedButton: React.FC<AnimatedButtonProps> = ({
         >
             {isFrame10 && (
                 <div
-                    className={`absolute flex items-center justify-center bg-secondary group-hover:bg-[#5A6B5D] text-background h-[56px] p-[10px] rounded-full w-[200px] left-[calc(50%+25px)] translate-x-[-50%] top-0 transition-all duration-300 group-hover:translate-x-[-158px] group-hover:-rotate-14 ${disabled ? "cursor-not-allowed" : "cursor-pointer"} ${textClassName}`}
+                    className={`absolute flex items-center justify-center bg-secondary group-hover:bg-primary text-background h-[56px] p-[10px] rounded-full w-[200px] left-[calc(50%+25px)] translate-x-[-50%] top-0 transition-all duration-300 group-hover:translate-x-[-158px] group-hover:-rotate-14 ${disabled ? "cursor-not-allowed" : "cursor-pointer"} ${textClassName}`}
                     style={textStyle}
                 >
                     <p
-                        className="font-medium text-xl leading-normal shrink-0"
+                        className="font-medium text-base lg:text-xl leading-normal shrink-0"
                     >
                         {text}
                     </p>
@@ -92,14 +92,14 @@ const AnimatedButton: React.FC<AnimatedButtonProps> = ({
 
             {/* Icon Container */}
             <div
-                className={`absolute size-[56px] pointer-events-none bg-secondary rounded-full transition-all duration-300 group-hover:bg-[#5A6B5D] flex items-center justify-center ${isFrame10 ? "left-0 top-0" : ""} ${animated ? "group-hover:translate-x-[195px] group-hover:translate-y-[10px]" : ""}`}
+                className={`absolute size-[56px] pointer-events-none bg-secondary rounded-full transition-all duration-300 group-hover:bg-primary flex items-center justify-center ${isFrame10 ? "left-0 top-0" : ""} ${animated ? "group-hover:translate-x-[195px] group-hover:translate-y-[10px]" : ""}`}
             >
                 <Image
                     src={iconSrc}
                     alt={iconAlt}
                     width={48}
                     height={48}
-                    className="block max-w-none object-contain"
+                    className="block max-w-none lg:w-12 lg:h-12 w-8 h-8 object-contain"
                 />
             </div>
         </button>

@@ -96,6 +96,12 @@ button:hover:not(:disabled) {
   align-items: center;
 }
 
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @keyframes rotateText {
   from {

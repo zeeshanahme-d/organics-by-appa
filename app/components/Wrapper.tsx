@@ -7,7 +7,7 @@ interface WrapperProps {
 
 export default function Wrapper({ children, className = '' }: WrapperProps) {
     return (
-        <div className={`m-auto w-full px-4 sm:px-6 lg:px-8  max-w-[1440px] ${className}`}>
+        <div className={`m-auto w-full px-4 sm:px-6 lg:px-15 max-w-[1440px] ${className}`}>
             {children}
         </div>
     );
