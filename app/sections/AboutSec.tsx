@@ -41,7 +41,7 @@ const About: React.FC = () => {
                         <div className="relative w-full max-w-[600px] flex justify-center items-center h-full">
                             {/* First Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:left-1 -z-10"
+                                className="absolute w-full flex-1 min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:left-1 -z-10"
                             >
                                 <Image
                                     src="/about-img1.png"
@@ -54,7 +54,7 @@ const About: React.FC = () => {
 
                             {/* Second Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] sm:inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-52 z-10 hidden"
+                                className="absolute flex-1 min-w-0 max-w-[250px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] sm:inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-52 z-10 hidden"
                             >
                                 <Image
                                     src="/about-img2.png"
@@ -67,7 +67,7 @@ const About: React.FC = () => {
 
                             {/* Third Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[200px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:right-1 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
+                                className="absolute w-full flex-1 max-w-[280px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:right-1 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
                             >
                                 <Image
                                     src="/about-img3.png"

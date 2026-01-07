@@ -30,7 +30,7 @@ const servicesData: any[] = [
             alt="Golden Panjeeri"
             width={150}
             height={180}
-            className="w-full max-w-[120px] sm:max-w-[140px] lg:max-w-[160px] h-auto object-contain"
+            className="w-full max-w-[140px] sm:max-w-[150px] lg:max-w-[180px] h-auto object-contain"
         />,
         className: "",
     },
@@ -46,7 +46,7 @@ const servicesData: any[] = [
             alt="Golden Panjeeri"
             width={150}
             height={180}
-            className="w-full max-w-[120px] sm:max-w-[140px] lg:max-w-[160px] h-auto object-contain"
+            className="w-full max-w-[140px] sm:max-w-[150px] lg:max-w-[180px] h-auto object-contain"
         />,
         className: "",
     },
@@ -62,7 +62,7 @@ const servicesData: any[] = [
             alt="Golden Panjeeri"
             width={150}
             height={180}
-            className="w-full max-w-[120px] sm:max-w-[140px] lg:max-w-[160px] h-auto object-contain"
+            className="w-full max-w-[140px] sm:max-w-[150px] lg:max-w-[180px] h-auto object-contain"
         />,
         className: "",
     },
@@ -88,7 +88,7 @@ const Services: React.FC = () => {
                             className={`group bg-[#CAB69A36] rounded-4xl p-6 xl:p-8 transition-all duration-300 transform hover:-translate-y-2 flex flex-col ${item.className}`}
                         >
                             <div
-                                className="rounded-xl w-full flex items-center justify-center mb-6 -mt-28 md:-mt-36"
+                                className="rounded-xl w-full flex items-center justify-center mb-4 -mt-28 md:-mt-36"
                             >
                                 {item.icon}
                             </div>
