@@ -32,10 +32,10 @@ export default function BenefitsSection() {
                         </h3>
 
                         {/* Table Header */}
-                        <div className="grid grid-cols-3 mt-6 lg:mt-10 text-xs sm:text-sm font-medium text-secondary">
-                            <span>Benefits</span>
-                            <span className="text-center font-Fredoka text-primary font-semibold">By Appa</span>
-                            <span className="text-center">Regular One's</span>
+                        <div className="flex justify-between mt-6 lg:mt-10 text-sm sm:text-sm md:text-lg font-medium text-secondary">
+                            <span className="w-[150px] sm:w-[280px]">Benefits</span>
+                            <span className="text-center w-[100px] font-Fredoka text-primary font-semibold">By Appa</span>
+                            <span className="text-center w-[100px] md:w-[180px] ">Regular One's</span>
                         </div>
 
                         {/* Divider */}
@@ -46,12 +46,12 @@ export default function BenefitsSection() {
                             {benefits.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="grid grid-cols-3 items-center border-b border-primary py-3 lg:py-6 xl:py-8"
+                                    className="flex justify-between items-center border-b border-primary py-3 lg:py-6 xl:py-8"
                                 >
-                                    <span className="text-secondary text-sm sm:text-base">{item}</span>
+                                    <span className="text-secondary font-medium text-sm sm:text-base md:text-lg w-[150px] sm:w-[280px]">{item}</span>
 
                                     {/* By Appa */}
-                                    <div className="flex justify-center">
+                                    <div className="flex justify-center w-[100px] ">
                                         <div className="bg-[#DFDFC6] rounded-md p-1.5 sm:p-2">
                                             <img
                                                 loading='lazy'
@@ -63,7 +63,7 @@ export default function BenefitsSection() {
                                     </div>
 
                                     {/* Regular Ones */}
-                                    <div className="flex justify-center">
+                                    <div className="flex justify-center w-[100px] md:w-[180px]">
                                         <img
                                             loading='lazy'
                                             src="/cross-icon.svg"
