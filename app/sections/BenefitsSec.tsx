@@ -12,12 +12,12 @@ export default function BenefitsSection() {
 
     return (
         <section className="bg-white py-20 relative">
-            <div className="flex justify-center items-center absolute left-1/2 -top-8 bg-white w-20 h-20 rounded-full ">
+            <div className="flex justify-center items-center absolute left-1/2 -translate-x-1/2 -top-8 bg-white w-16 h-16 sm:w-20 sm:h-20 rounded-full ">
                 <img
                     src="/emoji-icon.svg"
                     alt="Emoji"
                     loading='lazy'
-                    className="object-center w-5 h-5 sm:w-14 sm:h-14"
+                    className="object-center w-12 h-12 sm:w-14 sm:h-14"
                 />
             </div>
             <Wrapper>

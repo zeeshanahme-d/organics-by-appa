@@ -36,7 +36,7 @@ export default function FeatureSection() {
                         <img
                             src="/product-img2.png"
                             alt="Product"
-                            className="md:w-[300px] w-[200px] object-center"
+                            className="md:w-[300px] w-[250px] object-center"
                         />
                     </div>
 

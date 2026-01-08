@@ -10,7 +10,7 @@ function InfiniteAnimation() {
             <div className="animate-infinite-scroll">
                 {scrollList.map((name, index) => (
                     <div key={index} className='flex items-center'>
-                        <span className="text-3xl md:text-4xl lg:text-5 font-Fredoka font-semibold text-white mx-12 whitespace-nowrap">
+                        <span className="text-3xl md:text-4xl lg:text-5 font-Fredoka font-semibold text-white mx-6 md:mx-12 whitespace-nowrap">
                             {name}
                         </span>
                         {/* Dot Separator */}

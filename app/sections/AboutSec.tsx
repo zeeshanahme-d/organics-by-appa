@@ -48,7 +48,7 @@ const About: React.FC = () => {
                                     alt="Golden Panjeeri"
                                     width={250}
                                     height={300}
-                                    className="w-full h-full object-cover scale-150"
+                                    className="w-full h-full object-cover scale-120 md:scale-150"
                                 />
                             </div>
 
@@ -74,7 +74,7 @@ const About: React.FC = () => {
                                     alt="Chewy Granola Bars"
                                     width={250}
                                     height={300}
-                                    className="w-full h-full object-cover scale-150"
+                                    className="w-full h-full object-cover scale-120 md:scale-150"
                                 />
                             </div>
                         </div>
