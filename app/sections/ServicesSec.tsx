@@ -26,7 +26,7 @@ const servicesData: any[] = [
             "Browse verified listings for rent or sale. Filter by location, price, and property type to find your perfect match.",
         link: "#",
         icon: <Image
-            src="/product-img.png"
+            src="/product-img.webp"
             alt="Golden Panjeeri"
             width={150}
             height={180}
@@ -42,7 +42,7 @@ const servicesData: any[] = [
             "Browse verified listings for rent or sale. Filter by location, price, and property type to find your perfect match.",
         link: "#",
         icon: <Image
-            src="/product-img.png"
+            src="/product-img.webp"
             alt="Golden Panjeeri"
             width={150}
             height={180}
@@ -58,7 +58,7 @@ const servicesData: any[] = [
             "Browse verified listings for rent or sale. Filter by location, price, and property type to find your perfect match.",
         link: "#",
         icon: <Image
-            src="/product-img.png"
+            src="/product-img.webp"
             alt="Golden Panjeeri"
             width={150}
             height={180}

@@ -29,7 +29,7 @@ const Banner: React.FC = () => {
                             />
                         </div>
                         <div className="w-auto max-w-[600px] md:w-[600px] lg:w-[900px] xl:max-w-full">
-                            <img src="/banner-img.png" className='w-full h-auto' loading='lazy' />
+                            <img src="/banner-img.webp" className='w-full h-auto' loading='lazy' />
                         </div>
                         <img
                             src="/banner-text3.png"

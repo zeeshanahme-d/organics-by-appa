@@ -41,14 +41,14 @@ const About: React.FC = () => {
                         <div className="relative w-full max-w-[600px] flex justify-center items-center h-full">
                             {/* First Image */}
                             <div
-                                className="absolute w-full flex-1 min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[340px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:-left-10 md:-left-18 -z-10"
+                                className="absolute w-full flex-1 overflow-hidden  min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[340px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:-left-10 md:-left-18 -z-10"
                             >
                                 <Image
-                                    src="/about-img1.png"
+                                    src="/about-img1.webp"
                                     alt="Golden Panjeeri"
                                     width={250}
                                     height={300}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover scale-150"
                                 />
                             </div>
 
@@ -67,14 +67,14 @@ const About: React.FC = () => {
 
                             {/* Third Image */}
                             <div
-                                className="absolute w-full flex-1 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[340px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:-right-12 md:-right-12 xl:-right-8 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
+                                className="absolute w-full flex-1 max-w-[280px] overflow-hidden sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[340px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:-right-12 md:-right-12 xl:-right-8 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
                             >
                                 <Image
-                                    src="/about-img3.png"
+                                    src="/about-img3.webp"
                                     alt="Chewy Granola Bars"
                                     width={250}
                                     height={300}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover scale-150"
                                 />
                             </div>
                         </div>
