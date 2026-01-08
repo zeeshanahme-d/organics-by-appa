@@ -64,12 +64,13 @@ export default function Footer() {
                 {/* Social Icons */}
                 <div className="flex gap-6">
                     <a
-                        href="#"
+                        href="https://www.instagram.com/organicsbyappa/"
+                        target="_blank"
                         className="md:w-12 md:h-12 w-10 h-10 border border-white rounded-full flex items-center justify-center"
                     >
                         <FiInstagram color="#fff" className="md:w-6 md:h-6 w-5 h-5" />
                     </a>
-                    <a
+                    {/* <a
                         href="#"
                         className="md:w-12 md:h-12 w-10 h-10 border border-white rounded-full flex items-center justify-center"
                     >
@@ -80,7 +81,7 @@ export default function Footer() {
                         className="md:w-12 md:h-12 w-10 h-10 border border-white rounded-full flex items-center justify-center"
                     >
                         <FaXTwitter color="#fff" className="md:w-6 md:h-6 w-5 h-5" />
-                    </a>
+                    </a> */}
                 </div>
 
                 {/* Divider */}
@@ -88,7 +89,7 @@ export default function Footer() {
 
                 {/* Copyright */}
                 <p className="text-sm md:text-base font-light ">
-                    © 2026 organicsbyappa. All rights reserved.
+                    © {new Date().getFullYear()} organicsbyappa. All rights reserved.
                 </p>
             </div>
         </footer>
