@@ -16,6 +16,7 @@ export default function BenefitsSection() {
                 <img
                     src="/emoji-icon.svg"
                     alt="Emoji"
+                    loading='lazy'
                     className="object-center w-5 h-5 sm:w-14 sm:h-14"
                 />
             </div>
@@ -53,6 +54,7 @@ export default function BenefitsSection() {
                                     <div className="flex justify-center">
                                         <div className="bg-[#DFDFC6] rounded-md p-1.5 sm:p-2">
                                             <img
+                                                loading='lazy'
                                                 src="/done-icon.svg"
                                                 alt="Checked"
                                                 className="object-center w-6 h-6 lg:w-8 lg:h-8 xl:w-10 xl:h-10"
@@ -63,6 +65,7 @@ export default function BenefitsSection() {
                                     {/* Regular Ones */}
                                     <div className="flex justify-center">
                                         <img
+                                            loading='lazy'
                                             src="/cross-icon.svg"
                                             alt="Cancel"
                                             className="object-center w-6 h-6 lg:w-8 lg:h-8 xl:w-10 xl:h-10"
@@ -77,11 +80,13 @@ export default function BenefitsSection() {
                     <div className='sm:h-[650px] xl:h-[900px] lg:h-[800px] w-full lg:w-1/2 order-2 lg:order-1 flex-centered'>
                         <div className="w-full h-full flex-centered rounded-[20px] relative">
                             <img
+                                loading='lazy'
                                 src="/benefits-sec-img.jpg"
                                 alt="Spice Bowl"
                                 className="w-full h-full object-contain"
                             />
                             <img
+                                loading='lazy'
                                 src="/product-img3.png"
                                 alt="Spice Bowl"
                                 className="-[200px] sm:w-[300px] lg:w-[400px] absolute object-contain -mt-8 lg:mt-0"

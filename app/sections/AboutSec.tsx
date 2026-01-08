@@ -14,7 +14,7 @@ const About: React.FC = () => {
     ];
 
     return (
-        <section className="py-20" id="about">
+        <section className="py-20 md:py-32" id="about">
             <Wrapper>
                 <div className="text-center mb-10 sm:mb-32">
                     <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight">

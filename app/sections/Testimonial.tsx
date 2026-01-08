@@ -62,7 +62,7 @@ export default function Testimonials() {
     }, []);
 
     return (
-        <section className="py-20">
+        <section className="py-20 md:py-32">
             <Wrapper>
                 {/* Heading */}
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center capitalize text-primary font-semibold leading-tight tracking-[-2]">

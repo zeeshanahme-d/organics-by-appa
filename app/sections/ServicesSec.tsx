@@ -70,7 +70,7 @@ const servicesData: any[] = [
 
 const Services: React.FC = () => {
     return (
-        <section className="py-20" id='services'>
+        <section className="py-20 md:py-32 lg:py-44" id='services'>
 
             <Wrapper>
                 {/* <!-- Section Header --> */}
