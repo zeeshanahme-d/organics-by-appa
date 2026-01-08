@@ -35,13 +35,13 @@ const About: React.FC = () => {
                     </h2>
                 </div>
 
-                <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 xl:gap-16">
+                <div className="flex flex-col xl:flex-row items-center gap-8 md:gap-12 xl:gap-16">
                     {/* Images Side */}
-                    <div className="w-full lg:w-1/2 relative flex justify-center items-center min-h-[600px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[300px] px-4 sm:px-8 lg:px-0">
+                    <div className="w-full xl:w-1/2 relative flex justify-center items-center min-h-[600px] sm:min-h-[350px] md:min-h-[450px] xl:min-h-[300px] px-4 sm:px-8 lg:px-0">
                         <div className="relative w-full max-w-[600px] flex justify-center items-center h-full">
                             {/* First Image */}
                             <div
-                                className="absolute w-full flex-1 min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:left-1 -z-10"
+                                className="absolute w-full flex-1 min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[340px] inline-flex flex-col justify-end items-center border-14 border-white bg-background rotate-[7.848deg] sm:rotate-[-7.848deg] left-1/2 -translate-x-1/2 sm:translate-x-0 -top-64 sm:-top-40 sm:-left-10 md:-left-18 -z-10"
                             >
                                 <Image
                                     src="/about-img1.png"
@@ -54,7 +54,7 @@ const About: React.FC = () => {
 
                             {/* Second Image */}
                             <div
-                                className="absolute flex-1 min-w-0 max-w-[250px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] sm:inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-52 z-10 hidden"
+                                className="absolute flex-1 min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[320px] sm:inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-52 z-10 hidden"
                             >
                                 <Image
                                     src="/about-img2.png"
@@ -67,7 +67,7 @@ const About: React.FC = () => {
 
                             {/* Third Image */}
                             <div
-                                className="absolute w-full flex-1 max-w-[280px] sm:max-w-[220px] md:max-w-[250px] h-[250px] sm:h-[280px] md:h-[300px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:right-1 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
+                                className="absolute w-full flex-1 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[340px] inline-flex flex-col justify-end items-center border-14 border-white bg-background -rotate-24 sm:rotate-8 sm:translate-0 sm:-right-12 md:-right-12 xl:-right-8 z-20 right-1/2 translate-x-1/2 top-0 sm:-top-40"
                             >
                                 <Image
                                     src="/about-img3.png"
@@ -81,7 +81,7 @@ const About: React.FC = () => {
                     </div>
 
                     {/* Text Side */}
-                    <div className="w-full lg:w-1/2 text-center lg:text-left px-4 sm:px-6 lg:px-0">
+                    <div className="w-full lg:w-3/4 xl:w-1/2 text-center lg:text-left px-4 sm:px-6 lg:px-0">
                         <div className="space-y-6 sm:space-y-8">
                             {/* Main Heading */}
                             <h1 className="text-xl sm:text-3xl md:text-4xl font-semibold leading-tight">
