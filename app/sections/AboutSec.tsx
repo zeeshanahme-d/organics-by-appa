@@ -57,7 +57,7 @@ const About: React.FC = () => {
                                 className="absolute flex-1 min-w-0 max-w-[280px] sm:max-w-[220px] md:max-w-[280px] h-[250px] sm:h-[280px] md:h-[320px] sm:inline-flex flex-col justify-center items-center border-14 border-white bg-background rotate-[-1.082deg] left-1/2 -translate-x-1/2 -top-52 z-10 hidden"
                             >
                                 <Image
-                                    src="/about-img2.png"
+                                    src="/about-img2.webp"
                                     alt="Nutty Makhana Crunch"
                                     width={250}
                                     height={300}
