@@ -1,11 +1,11 @@
 const nextConfig = {
-  output: "export",
+  // output: "export",
   trailingSlash: false,
   productionBrowserSourceMaps: false,
   reactStrictMode: true,
   compress: true,
   poweredByHeader: false,
-  distDir: 'out',
+  // distDir: 'out',
 
   turbopack: {
     root: __dirname,
